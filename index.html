@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Choice Poll</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+	  
+</head>
+
+<body>
+    <div class="container">
+      <div class="title">
+            &#x2726;&nbsp;&nbsp;&nbsp;PROGRESSI IN EMATOLOGIA&nbsp;&nbsp;&nbsp;&#x2726;
+        </div>
+        <div class="choices" id="listoptions">
+            <table>
+                <tr>
+                    <td><button message="Risposta 1" class="webtrigger-button w-button"><span>Risposta 1</span></button></td>
+				</tr>
+				<tr>
+                    <td><button message="Risposta 2" class="webtrigger-button w-button"><span>Risposta 2</span></button></td>
+                </tr>
+                <tr>
+                    <td><button message="Risposta 3" class="webtrigger-button w-button"><span>Risposta 3</span></button></td>
+				</tr>
+				<tr>
+                    <td><button message="Risposta 4" class="webtrigger-button w-button"><span>Risposta 4</span></button></td>
+                </tr>
+				<tr>
+                    <td><button message="Risposta 5" class="webtrigger-button w-button"><span>Risposta 5</span></button></td>
+                </tr>
+				<tr>
+                    <td><button message="Risposta 6" class="webtrigger-button w-button"><span>Risposta 6</span></button></td>
+                </tr>
+				<tr>
+                    <td><button message="Risposta 7" class="webtrigger-button w-button"><span>Risposta 7</span></button></td>
+                </tr>
+				<tr>
+                    <td><button message="Risposta 8" class="webtrigger-button w-button"><span>Risposta 8</span></button></td>
+                </tr>
+				<tr>
+                    <td><button message="Risposta 9" class="webtrigger-button w-button"><span>Risposta 9</span></button></td>
+                </tr>
+				<tr>
+                    <td><button message="Risposta 10" class="webtrigger-button w-button"><span>Risposta 10</span></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="feedback" id="thanks">
+            <div class="thx">
+                Risposta Registrata<br />
+            </div>
+            <div class="chosen">
+                Hai selezionato:<br />
+                <span id="chosenvalue"></span><br />
+				Aggiorna per rivotare <br /><br />
+				<button class="f-button" onclick="location.reload()"><span>Aggiorna</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

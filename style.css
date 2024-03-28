@@ -1,0 +1,88 @@
+html {
+    background: url(https://data.intuiface.com/KB-Samples/6.6/MobileDrivenDataEntry/MultipleChoicePoll/BG_MCP.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+table {
+    margin: 0 auto;
+}
+
+.title {
+    background-color: rgba(1, 255, 254, 0.25);
+    padding: 0.5em 0.25em;
+    font-size: 120%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 2em 0.5em;
+}
+
+.w-button {
+    background-color: rgba(51, 63, 80, 1);
+    border: 0;
+    width: 14em;
+    height: 4em;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.w-button span {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2em;
+	color: white
+}
+
+.f-button {
+    background-color: rgba(100, 28, 18, 1);
+    border: 0;
+    width: 14em;
+    height: 4em;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.f-button span {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2em;
+	color: white
+}
+
+.choices {
+    display: block;
+}
+
+.feedback {
+    display: none;
+}
+
+.thx, .chosen {
+    padding: 1em;
+    margin: 1em 1em;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+    text-align: center;
+}
+
+.thx {
+    background-color: rgba(255, 255, 255, 0.25);
+    font-size: 1.75em;
+    font-weight: 800;
+    border: 3px solid rgba(1, 255, 254);
+    border-radius: 20px;
+}
+
+.chosen {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.chosen #chosenvalue {
+    color: rgba(1, 255, 254);
+    font-style: normal;
+}
